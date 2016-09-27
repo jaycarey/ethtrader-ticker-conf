@@ -1,0 +1,9 @@
+span.redditname:after,span.redditname:before {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+span.redditname:hover:after,span.redditname:hover:before {
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+}
