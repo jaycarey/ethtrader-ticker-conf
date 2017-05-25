@@ -14,9 +14,9 @@ ${css.selector} {
     animation-timing-function: linear;
     -moz-animation-timing-function: linear;
     -webkit-animation-timing-function: linear;
-    animation-duration: 30s;
-    -moz-animation-duration: 30s;
-    -webkit-animation-duration: 30s;
+    animation-duration: ${ticker.scrollDuration}s;
+    -moz-animation-duration: ${ticker.scrollDuration}s;
+    -webkit-animation-duration: ${ticker.scrollDuration}s;
     color: white;
     content: " ";
     position: absolute;
