@@ -21,6 +21,7 @@ ${css.selector} {
     content: " ";
     position: absolute;
     top: ${ticker.top};
+    display: none;
 }
 
 @keyframes ${ticker.name} {
